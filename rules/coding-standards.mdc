@@ -1,0 +1,12 @@
+---
+description: Team Python coding standards
+globs: ["**/*.py"]
+alwaysApply: true
+---
+- Python 3.11+. Follow PEP 8; Ruff is the linter and formatter.
+- Type hints on all public functions; code must pass mypy.
+- Tests use pytest in tests/, mirroring the package layout.
+- No secrets in code. Read config from environment variables.
+- Validate inputs at boundaries (e.g. Pydantic). Raise specific exceptions, never bare except.
+- Dependencies are pinned in pyproject.toml.
+- Every bug fix includes a regression test.

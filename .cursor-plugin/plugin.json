@@ -1,0 +1,14 @@
+{
+  "name": "github-sdlc",
+  "version": "1.0.0",
+  "description": "End-to-end SDLC with GitHub: spec, design, code, test, review, release.",
+  "author": { "name": "Ravi", "email": "ravikmn@users.noreply.github.com" },
+  "repository": "https://github.com/ravikmn/cursor-sdlc-plugin",
+  "keywords": ["sdlc", "github", "python", "workflow"],
+  "agents": "./agents",
+  "skills": "./skills",
+  "rules": "./rules",
+  "commands": "./commands",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./mcp.json"
+}
