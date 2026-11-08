@@ -76,7 +76,7 @@ hooks/
 }
 ```
 
-**Option B — local server with a personal access token:**
+**Option B — local server with a personal access token** (copy `mcp.token.example.json` over `mcp.json`):
 
 ```json
 {
@@ -118,4 +118,4 @@ Use a fine-grained token with Contents, Issues, Pull requests and Actions (read)
 
 ## Status
 
-Work in progress — README first; plugin files are being added.
+v1.0.0 — all plugin files are in place. Next: test it in Cursor on a small issue and adjust field names to Cursor's current plugin schema if needed.
