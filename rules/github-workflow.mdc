@@ -1,8 +1,0 @@
----
-description: GitHub branching, commit and pull request conventions
-alwaysApply: true
----
-- Branches: feature/<issue>-<slug>, fix/<issue>-<slug>.
-- Commits: Conventional Commits, referencing #<issue>.
-- Never push to or merge into the default branch directly.
-- PRs need passing GitHub Actions checks and one human approval.
